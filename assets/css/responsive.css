@@ -161,6 +161,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 	/* CUSTOM RESETS */
+
 	h1 {
 		font-size: 32px;
 	}
@@ -213,9 +214,21 @@
 
 	/* HEADER */
 	.site-header {
-		padding-top: 20px;
+		position: fixed;
+		padding: 50px 0 0;
+		background-color: transparent;
+		width: 100%;
+		z-index: 3;
+		height: 50px;
 	}
-	
+	.site-header-fixed {
+		position: fixed;
+		padding: 50px 0 0;
+		background-color: white;
+		width: 100%;
+		z-index: 3;
+		height: 100px;
+	}
 	.navbar-header .site-title {
 		padding-left: 15px;
 	}
@@ -238,6 +251,7 @@
 	.slicknav_btn {
 		position: absolute;
 		right: 0;
+		top: 100;
 		margin: 0 15px 0 0;
 		padding: 5px;
 		z-index: 9999;

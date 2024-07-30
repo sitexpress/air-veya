@@ -204,13 +204,19 @@ if($('#map').length >0 ) {
 
 
 //window position
-let positionTop = window.scrollY;
 const siteHeader = document.querySelector(".site-header")
-console.log(siteHeader)
+const siteHeaderFixed = document.querySelector(".site-header-fixed")
+
+
 window.addEventListener("scroll", () => {
-  if (positionTop.scrollY <= 0){
-
+  positionTop = window.scrollY;
+  console.log(positionTop)
+  if (positionTop <= 0) {
+    siteHeader.classList.remove("site-header-fixed");
+    siteHeader.classList.add("site-header");
   } else {
-
+    siteHeader.classList.remove("site-header");
+    siteHeader.classList.add("site-header-fixed");
   }
+
 })
