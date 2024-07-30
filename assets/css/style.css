@@ -619,6 +619,7 @@ html, body {
     color: #26272d;
 }
 
+
 .img-res {
     display: block;
     width: 100vw;
@@ -640,6 +641,7 @@ html, body {
 
 /* HEADER
 ================================================== */
+
 .site-header {
     position: fixed;
     padding: 50px 0 0;
@@ -659,6 +661,7 @@ html, body {
     height: 120px;
     /* border-bottom: 1px solid white; */
 }
+
 
 /* Site-logo */
 .site-title {
@@ -902,6 +905,9 @@ html, body {
 /* site-section */
 .site-section {
    padding: 100px 0 140px;
+   padding-left: 30px;
+   padding-right: 30px;
+
 }
 
 .subheading-text {
@@ -942,6 +948,7 @@ html, body {
 /* Section: Services */
 .section-services .subheading-text {
     margin-bottom: 90px;
+
 }
 
 .section-services .col-md-3:nth-child(n+5) .service {
@@ -1091,9 +1098,18 @@ html, body {
 
 /* FOOTER
 ================================================== */
+
+.footer-one {
+    display: none;
+}
+.footer-two {
+    display: block;
+}
 .site-footer {
     background-color: #f5f5f8;
     padding-top: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .site-footer .site-title {
