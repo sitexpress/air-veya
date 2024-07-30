@@ -94,8 +94,10 @@ p + p {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
+
 .btn-border {
     border: 1px solid #26272d;
+    
 }
 
 .btn-fill {
@@ -391,7 +393,7 @@ select {
 }
 
 .bootstrap-select.btn-group .dropdown-menu.inner {
-    position: static; *
+    position: static; 
     float: none;
     border: 0;
     padding: 0;
@@ -840,7 +842,9 @@ html, body {
 
 .hero-text .btn {
     position: relative;
-    background-color: transparent;
+    background-color:#039BE5;
+    color: #fff;
+    /* background-color: transparent; */
 }
 
 .hero-text .btn:hover {
