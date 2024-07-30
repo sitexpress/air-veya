@@ -656,7 +656,7 @@ html, body {
     background-color: white;
     width: 100%;
     z-index: 3;
-    /* height: 120px; */
+    height: 120px;
     /* border-bottom: 1px solid white; */
 }
 

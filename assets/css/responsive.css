@@ -219,7 +219,7 @@
 		background-color: transparent;
 		width: 100%;
 		z-index: 3;
-		height: 50px;
+
 	}
 	.site-header-fixed {
 		position: fixed;
@@ -227,7 +227,7 @@
 		background-color: white;
 		width: 100%;
 		z-index: 3;
-		height: 100px;
+		height: 120px;
 	}
 	.navbar-header .site-title {
 		padding-left: 15px;
